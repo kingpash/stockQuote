@@ -1,0 +1,283 @@
+h1{
+	color: white;
+	font-size: 4.2rem;
+    font-weight: 400;
+    /*font-family: 'Poiret One', sans-serif;*/
+    font-family: 'Megrim';
+    line-height: 110%;
+}
+
+h2,h3,h4{
+	font-size: larger;
+	color: white;
+	text-align: center;
+	font-family: 'Poiret One', sans-serif;
+	font-size: xx-large;
+}
+
+h2{
+	font-size: xx-large;
+	font-family: 'Poiret One', sans-serif;
+}
+
+p{
+	font-size: larger;
+	color: white;
+}
+
+body{
+    background-color: #535353;
+
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+table {
+    font-family: 'Advent Pro';
+    border-collapse: collapse;
+    width: 100%;
+    font-size: x-large;
+}
+
+td, th {
+	color: white;
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #727272;
+}
+
+.twrap {
+    width: 100%;
+    height: 450px;
+    overflow: scroll;
+    
+}
+
+a{
+	color: white;
+	text-decoration: none;
+}
+
+.fleft {
+    float:left; 
+    width: 48%;
+background:transparent;
+    height: auto;
+}
+
+
+.fright {
+float: right;
+    background:transparent;
+    height: auto;
+    width: 48%;
+    
+}
+
+.fcenter{
+	height: 50px;
+	overflow: scroll;
+	display: table;
+    background:transparent;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container1 {
+  margin: auto;
+  position: relative;
+  width: 50%;
+}
+.container2 {
+  margin: auto;
+  position: relative;
+  width: 50%;
+}
+.container3 {
+  margin: auto;
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 15%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+  margin: auto;
+}
+
+.overlay1 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+  overflow: hidden;
+  width: 0;
+  height: 150%;
+  transition: .5s ease;
+  margin: auto;
+}
+
+
+.container1:hover .overlay1 {
+  width: 100%;
+}
+
+.container2:hover .overlay {
+  width: 100%;
+}
+
+.container3:hover .overlay {
+  width: 100%;
+}
+
+.Qbtn{
+	top: 50%;
+	display: inline-block;
+	background-color: transparent;
+	border-radius: 12px;
+    border: none;
+    color: gray;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: auto;
+    font-size: 5vw;
+    font-family: 'Poiret One', sans-serif;
+    margin: auto;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.Hbtn{
+	top: 50%;
+	display: inline-block;
+	background-color: transparent;
+	border-radius: 12px;
+    border: none;
+    color: gray;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: auto;
+    font-size: 5vw;
+    font-family: 'Poiret One', sans-serif;
+    margin: auto;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.Sbtn{
+	top: 50%;
+	display: inline-block;
+	background-color: transparent;
+	border-radius: 12px;
+    border: none;
+    color: gray;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: auto;
+    font-size: 5vw;
+    font-family: 'Poiret One', sans-serif;
+    margin: auto;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+#SearchDiv{
+	width: 100%;
+    background-color: transparent;
+    display: none;
+}
+
+input[type=text] {
+	align-self: center;
+    width: 50%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    font-family: 'Poiret One', sans-serif;
+    font-size: larger;
+    background-color: white;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 10px;
+}
+
+
+.wrapper {
+    text-align: center;
+    font-size: larger;
+}
+
+.button{
+	top: 50%;
+	display: inline-block;
+	background-color: transparent;
+	border-radius: 12px;
+    border: white;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: larger;
+    font-family: 'Poiret One', sans-serif;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button1 {
+	text-align: center;
+    background-color: transparent;
+    color: white;
+    border: 2px solid #e7e7e7;
+}
+
+.button:hover {background-color: #848484;}
+
+.text {
+  white-space: nowrap; 
+  color: gray;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+footer{
+	text-align: center;
+	color: white;
+	font-family: 'Megrim';
+}
